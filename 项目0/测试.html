@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    a{
+      background-color:#f00;
+
+    }
+    div{
+      width:200px;
+      height:200px;
+      background-color:#0f0;
+      display:none;
+    }
+    div:hover{
+      display:block;
+    }
+    a:hover+div{
+      display:block;
+    }
+  </style>
+</head>
+<body>
+  <a href="#d1">点一点</a>
+  <div id="d1"></div>
+</body>
+</html>

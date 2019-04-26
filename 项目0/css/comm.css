@@ -1,0 +1,236 @@
+*{
+  padding:0;
+  margin:0;
+  font-family: "微软雅黑";
+}
+/*头部外div.container设置*/
+div.container{
+  height:160px;
+  background-image:url(../images/top-bg.jpg);
+}
+/* logo 搜索框 中英文切换 */
+div.container>div.header{
+  width:1200px;
+  height:110px;
+  margin:auto;
+}
+/* 全部左浮动 */
+div.container>div.header>div{
+  float:left;
+}
+/* 调整logo位置 */
+div.container>div.header>div.left{
+  margin-top:8px;
+  margin-left:80px;
+}
+/* 设置搜索框尺寸及位置 */
+div.container>div.header>div.center{
+  width:368px;
+  height:60px;
+  margin-top:30px;
+  margin-left:200px;
+}
+
+div.container>div.header>div.center>input{
+  width:300px;
+  height:30px;
+  padding-left:20px;
+  font-size:16px;
+  background-color:transparent;
+  border:1px solid #A62721;
+  border-radius:15px;
+}
+div.container>div.header>div.center>button{
+  width:60px;
+  height:30px;
+  font-size:16px;
+  color:#fff;
+  cursor:pointer;
+  border:1px solid #A62721;
+  background-color:#A62721;
+  border-radius:14px;
+  margin-left:-65px;
+  padding-bottom:2px;
+}
+div.container>div.header>div.center>p{
+  
+  font-size:12px;
+  color:#6e6e6e;
+}
+div.container>div.header>div.right>span{
+  float:left;
+  width:70px;
+  font-size:14px;
+  margin-top:10px;
+  margin-left:20px;
+}
+div.container>div.header>div.right>span>a {
+  text-decoration:none;
+  color:#000;
+}
+div.container>div.header>div.right>span>a:hover{
+  color:#A62721;
+}
+
+/* 导航栏 */
+div.container>div.nav{
+  height:50px;
+  background-color:#A62721;
+}
+div.container>div.nav>ul{
+  width:1200px;
+  height:50px;
+  list-style:none;
+  padding:0;
+  margin:auto;
+}
+div.container>div.nav>ul>li{
+  width:240px;
+  height:50px;
+  float:left;
+  text-align:center;
+  line-height:50px;
+  color:#fff;
+  transition:all 1s;
+}
+div.container>div.nav>ul>li:hover{
+  background-color:#2e0b09;
+}
+div.container>div.nav>ul>li>a{
+  text-decoration:none;
+  color:#fff;
+}
+/* 脚文件 */
+div.footer{
+  height:130px;
+  background-color:#930000;
+  margin-top:20px;
+}
+div.footer:before{
+  content:"";
+  display:table;
+}
+div.footer>.f-content{
+  width:1200px;
+  margin:auto;
+  margin-top:25px;
+}
+div.footer>.f-content:after{
+  content:"";
+  display:block;
+  clear:both;
+
+}
+div.footer>.f-content>div{
+  float:left;
+  margin-right:54px;
+}
+div.footer>.f-content>.f-right{
+  margin-right:0px;
+} 
+div.footer>.f-content>.f-left>a{
+  display:block;
+  width:70px;
+  height:70px;
+  border:2px solid #fff;
+  border-radius:50%;
+}
+div.footer>.f-content>.f-center>ul{
+  width:970px;
+  border-bottom:1px solid #fff;
+  list-style:none;
+  padding:0;
+}
+div.footer>.f-content>.f-center>ul:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+div.footer>.f-content>.f-center>ul>li{
+  width:242.5px;
+  height:50px;
+  text-align:center;
+  float:left;
+}
+div.footer>.f-content>.f-center>ul>li>a{
+  text-decoration:none;
+  color:#fff;
+  line-height:50px;
+  /* font-size: */
+}
+/* 友情链接 -- 二级菜单 */
+div.footer>.f-content>.f-center>ul>li:last-child{
+  position:relative;
+  text-align:center;
+  line-height:50px;
+  color:#fff;
+}
+div.footer>.f-content>.f-center>ul>li:last-child:hover>ul{
+  display:block;
+}
+div.footer>.f-content>.f-center>ul>li:last-child>ul{
+  /* border:1px solid #0f0; */
+  position:absolute;
+  background-color:#930000;
+  bottom:50px;
+  list-style:none;
+  padding:0;
+  display:none;
+}
+div.footer>.f-content>.f-center>ul>li:last-child>ul>li{
+  width:240.5px;
+  height:48px;
+  text-align:center;
+}
+div.footer>.f-content>.f-center>ul>li:last-child>ul>li:hover{
+  background-color:#0f0;
+}
+div.footer>.f-content>.f-center>ul>li:last-child>ul>li>a{
+  text-decoration:none;
+  color:#fff;
+}
+div.footer>.f-content>.f-center>p{
+  text-align:center;
+  color:#fff;
+  font-size:16px;
+  margin-top:15px;
+}
+div.footer>.f-content>.f-center>ul>li>a:hover {
+  color:#2e0b09;
+}
+/* logo */
+div.footer-top{
+  width:1200px;
+  height:250px;
+  margin:auto;
+}
+div.footer-top:before{
+  content:"";
+  display:table;
+}
+div.footer-top>h3{
+  width:1200px;
+  height:70px;
+  line-height:70px;
+  text-align:center;
+  margin:20px 0px;
+  background-image:url(../images/con-hover.png);
+  background-repeat:no-repeat;
+  background-position:center bottom;
+}
+div.footer-top>ul{
+  list-style:none;
+  padding:0 50px;
+}
+div.footer-top>ul:after{
+  content:"";
+  display:block;
+  clear:both;
+} 
+div.footer-top>ul>li{
+  float:left;
+  margin-left:35px;
+}
+div.footer-top>ul>li>a>img{
+  vertical-align:middle;
+}

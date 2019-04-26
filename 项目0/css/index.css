@@ -1,0 +1,169 @@
+/* 引入头文件 */
+header>iframe{
+  width:100%;
+  height:160px;
+}
+/* 引入脚文件 */
+footer>iframe:first-child{
+  width:100%;
+  height:250px;
+}
+footer>iframe:last-child{
+  width:100%;
+  height:150px;
+  margin-bottom:-4px;
+}
+/* 正文样式 */
+/* 轮播图 */
+div.carousel{
+  overflow:hidden;
+  margin-top:-4px;
+  position:relative;
+}
+div.carousel>ul:first-child{
+  width:5760px;
+  height:400px;
+}
+div.carousel>ul:first-child>li{
+  float:left;
+}
+div.carousel>ul:last-child{
+  width:100px;
+  height:15px;
+  list-style:none;
+  padding:0;
+  position:absolute;
+  top:360px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  margin:auto;
+}
+
+div.carousel>ul:last-child>li{
+  float:left;
+  width:15px;
+  height:15px;
+  background-color:#fff;
+  border-radius:50%;
+  margin-right:15px;
+}
+/* 1楼产品详细样式 */
+/* 5个导航栏样式 */
+div#wine{
+  width:100%;
+  margin-top:-5px;
+}
+div#wine>ul{
+  width:1200px;
+  height:60px;
+  /* border:1px solid #0f0; */
+  margin:auto;
+  list-style:none;
+  padding-left:0px;
+}
+div#wine>ul>li{
+  width:240px;
+  height:60px;
+  /* background-color:brown; */
+  float:left;
+  text-align:center;
+  line-height:60px;
+  font-size:20px;
+  transition:1s;
+}
+/* div#wine>ul>li:hover{
+  background-color:rgba(241,183,183,0.5);
+}   */
+/*  */
+div#wine>h3{
+  height:50px;
+  line-height:50px;
+  text-align:center;
+  font-family:"华文行楷";
+  font-size:22px;
+  color:#686868;
+}
+/* 红酒列表 切换 */
+div#wine-content{
+  width:1200px;
+  margin:auto;
+}
+/* 防止选项卡高度坍塌 */
+div#wine-content>div:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+/* 给列表定义样式 */
+div#wine-content>div{
+  display:none;
+}
+div#wine-content>div>div.con-ul{
+  width:350px;
+  height:300px;
+  border:1px solid #767676;
+  float:left;
+  margin:0 0 40px 36px;
+}
+div#wine-content>div>div.con-ul>ul{
+  width:300px;
+  height:250px;
+  margin:25px 0 0 25px;
+  list-style:none;
+  padding-left:0;
+}
+div#wine-content>div>div.con-ul>ul>li{
+  width:100%;
+  height:50px;
+  line-height:50px;
+  background-image:url(../images/con-listimg.png);
+  background-repeat:no-repeat;
+  background-position:left;
+  text-indent:2em;
+}
+div#wine-content>div>div.con-ul>ul>li>a{
+  text-decoration:none;
+  font-size:18px;
+  color:#000;
+  font-family:"华文彩云";
+  display:block;
+  position:relative;
+}
+div#wine-content>div>div.con-ul>ul>li>a:hover{
+  text-decoration:underline;
+}
+div#wine-content>div>div.con-ul>ul>li>a>span{
+  position:absolute;
+  right:30px;
+  font-family:"华文彩云";
+  font-size:18px;
+}
+/* 后面详细红酒的样式 */
+div#wine-content>div>div.con-ul~div{
+  float:left;
+  width:350px;
+  height:300px;
+  border:1px solid #767676;
+  margin:0 0 40px 36px;
+  position:relative;
+}
+div#wine-content>div>div.con-ul~div>a{
+  text-decoration:none;
+  color:#fff;
+}
+div#wine-content>div>div.con-ul~div>a>img{
+  position:absolute;
+  top:20px;
+  right:20px;
+}
+div#wine-content>div>div.con-ul~div>a>span{
+  position:absolute;
+  bottom:0px;
+  display:block;
+  width:100%;
+  height:35px;
+  line-height:35px;
+  background-color:rgba(0, 0, 0, 0.4);
+  text-align:center;
+}
